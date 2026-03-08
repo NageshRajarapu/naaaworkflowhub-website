@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview --port $PORT --host",
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
     "preview": "vite preview",
+    "start": "vite preview --host --port $PORT",
+    "build:dev": "vite build --mode development",
+    "lint": "eslint .",  
     "test": "vitest run",
     "test:watch": "vitest"
   },
